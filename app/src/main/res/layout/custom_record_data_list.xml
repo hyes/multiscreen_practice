@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recordDataList"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="name"
+            android:id="@+id/name"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#424242" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/position1"
+            android:textSize="20dp"
+            android:textColor="#ef7834"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cap1"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:rotation="90"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio1"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:onClick="Play1Clicked"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/step1"
+            android:layout_weight="0.7"
+            android:onClick="OnButton1Clicked"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/customize_button_revise"
+            android:text="@string/revise"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/position2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ef7834"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cap2"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:rotation="90"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio2"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:onClick="Play2Clicked"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/step2"
+            android:layout_weight="0.7"
+            android:onClick="OnButton2Clicked"
+            android:background="@drawable/customize_button_revise"
+            android:layout_marginLeft="3dp"
+            android:text="@string/revise"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/position3"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ef7834"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cap3"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:rotation="90"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio3"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:onClick="Play3Clicked"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/step3"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:layout_marginLeft="3dp"
+            android:text="@string/revise"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/position4"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ef7834"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cap4"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:rotation="90"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio4"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:onClick="Play4Clicked"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/step4"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:layout_marginLeft="3dp"
+            android:text="@string/revise"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cap5"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:rotation="90"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio5"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:onClick="Play5Clicked"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/step5"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:layout_marginLeft="3dp"
+            android:text="@string/revise"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner2"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cap6"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:rotation="90"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio6"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:onClick="Play6Clicked"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/step6"
+            android:layout_weight="0.7"
+            android:background="@drawable/customize_button_revise"
+            android:layout_marginLeft="3dp"
+            android:text="@string/revise"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="sending"
+            android:id="@+id/send_btn"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/customize_button_basic"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
